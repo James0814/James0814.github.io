@@ -1,7 +1,4 @@
-
-
-
-baseurl = "https://James0814.github.io" 
+baseURL = "https://James0814.github.io" 
 #設定主頁 url
 
 languageCode = "zh-tw" 
@@ -9,7 +6,7 @@ languageCode = "zh-tw"
 
 title = "Whatever you want" 
 #設定網站標題
-
+theme = "PaperMod"
 buildDrafts = false 
 #是否產生草稿(建議選否)
 [[menu.main]]
@@ -44,7 +41,34 @@ weight = 30
 enabled = true
 title = "Enter the Content"
 subtitle = "Enter the Content"
-imageUrl = "img/name.jpg"
+imageUrl = "img/whale.png"
 imageWidth = 120
 imageHeight = 120
 imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/James0814"
+#...more
+
+[params] 
+ShowBreadCrumbs = true    
+#展示文章所在目錄
+ShowReadingTime = true    
+#展示閱讀時間
+ShowShareButtons = true    
+#展示分享按鈕
+ShowPostNavLinks = true    
+#本地其他文章連結
+
+[params.cover]
+linkFullImages = true    
+#點擊圖片後以全螢幕檢視
